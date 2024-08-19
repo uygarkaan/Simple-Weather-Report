@@ -1,0 +1,18 @@
+public class Main {
+    public static void main(String[] args) {
+        // Temperature Value
+        int temperature = 20; // The temperature value can be changed.
+
+        if (temperature < -10) {
+            System.out.println("The weather is very cold.");
+        } else if (temperature >= -10 && temperature < 0) {
+            System.out.println("The weather is cold.");
+        } else if (temperature >= 0 && temperature <= 20) {
+            System.out.println("The weather is warm.");
+        } else if (temperature > 20 && temperature <= 30) {
+            System.out.println("The weather is hot.");
+        } else {
+            System.out.println("The weather is very hot.");
+        }
+    }
+}
